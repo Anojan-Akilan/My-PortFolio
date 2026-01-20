@@ -1,14 +1,14 @@
 import "./About.css";
-import Resume from "../assets/pdf/Asviny Kunasingam.pdf";
+import Resume from "../assets/pdf/ProfessionalCV.pdf";
 const About = () => {
     const aboutContent = {
         heading: "About Me",
-        intro: `I’m a dedicated Backend Developer focused on building secure, scalable, and high-performance applications. I enjoy solving complex problems and creating reliable systems that power modern web applications..`,
+        intro: `I am an aspiring QA Engineer who is genuinely interested in software testing and quality assurance. I enjoy writing clear test cases, executing test scenarios, and reporting bugs in a well-structured and understandable way. I am always eager to learn new testing tools and methodologies and aim to contribute to building stable, reliable, and user-friendly software products.`,
         ctaText: "Download CV",
-        ctaLink: {Resume},
+        ctaLink: { Resume },
     };
 
-    
+
     return (
         <article className="about">
             <div className="about-container">
@@ -24,7 +24,7 @@ const About = () => {
                         <a href={Resume} className="about-btn primary" download>
                             Download CV
                         </a>
-                        <a href={Resume}className="about-btn secondary" target="_blank" rel="noopener noreferrer">
+                        <a href={Resume} className="about-btn secondary" target="_blank" rel="noopener noreferrer">
                             View CV
                         </a>
                     </div>

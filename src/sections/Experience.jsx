@@ -6,9 +6,9 @@ const Experience = () => {
         {
             id: 1,
             icon: <FaBriefcase />,
-            role: "Backend developer - Intern",
-            company: "Samuel Gnanam IT center.",
-            duration: "Sep 2025 - Present",
+            role: "QA Engineer - Intern",
+            company: "Samuel Gnanam IT centre.",
+            duration: "July 2025 - January 2026",
             description: "Developing scalable web applications using React and Springboot. Coordinating with design teams to implement user-friendly interfaces.",
         },
         // {

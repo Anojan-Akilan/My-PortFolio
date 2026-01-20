@@ -4,9 +4,9 @@
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(2, 12, 27, 0.85);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid var(--border);
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
@@ -32,14 +32,15 @@
 }
 
 .navbar-logo span {
-    color: black;
+    color: var(--text-primary);
 }
 
-.navbar-logo-hexagon {
-    width: 32px;
+.navbar-logo-shape {
+    width: 35px;
     height: 35px;
     background: var(--gradient);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    border-radius: 8px;
+    /* Rounded Square */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +51,7 @@
 }
 
 /* Inner cutout for outline effect */
-.navbar-logo-hexagon::after {
+.navbar-logo-shape::after {
     content: "";
     position: absolute;
     top: 2px;
@@ -58,7 +59,8 @@
     right: 2px;
     bottom: 2px;
     background: var(--bg-primary);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    border-radius: 6px;
+    /* Slightly smaller radius for inner */
     z-index: 1;
 }
 
@@ -69,7 +71,7 @@
     z-index: 2;
 }
 
-.navbar-logo:hover .navbar-logo-hexagon {
+.navbar-logo:hover .navbar-logo-shape {
     transform: rotate(10deg) scale(1.1);
 }
 
@@ -88,13 +90,13 @@
 }
 
 .navbar-link {
-    color: black;
+    color: var(--text-primary);
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .navbar-link:hover {
-    color: #646cff;
+    color: var(--accent);
 }
 
 

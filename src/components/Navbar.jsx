@@ -32,10 +32,10 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-container">
                 <a href="#home" className="navbar-logo" onClick={closeMobileMenu}>
-                    <div className="navbar-logo-hexagon">
+                    <div className="navbar-logo-shape">
                         <FaCode className="navbar-logo-icon" />
                     </div>
-                    <span>Portfolio</span>
+                    <span>Anojan Akilan</span>
                 </a>
 
                 <div className="navbar-right">

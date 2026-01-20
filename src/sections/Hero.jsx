@@ -7,11 +7,10 @@ const Hero = () => {
             <div className="hero-container">
                 <div className="hero-content">
                     <p className="hero-greeting">Hello, I'm</p>
-                    <h1 className="hero-name">Asviny Kunasingam</h1>
-                    <h2 className="hero-title">Backend Developer</h2>
+                    <h1 className="hero-name">Anojan Akilan</h1>
+                    <h2 className="hero-title">QA Engineer</h2>
                     <p className="hero-description">
-                        I build modern, scalable web applications with passion and precision. 
-                        I’m a backend developer specializing in REST API development using Spring Boot, with secure authentication and authorization powered by JWT and Spring Security
+                       QA Engineer with hands-on experience in manual testing, test case creation, and defect tracking using Jira. I also have basic experience with Selenium and am continuously improving my automation testing skills. I am passionate about delivering high-quality, reliable software and always eager to learn and grow in the QA field.
                     </p>
                     <div className="hero-buttons">
                         <a href="#projects" className="hero-btn primary">View Projects</a>

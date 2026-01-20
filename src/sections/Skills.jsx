@@ -1,35 +1,31 @@
-import { FaCode, FaServer, FaLightbulb, FaRocket, FaPaintRoller, FaProjectDiagram, FaGit, FaGithub, FaBusinessTime, FaPaintBrush } from "react-icons/fa";
+import { FaCode, FaServer, FaLightbulb, FaRocket, FaPaintRoller, FaProjectDiagram, FaGit, FaGithub, FaBusinessTime, FaPaintBrush, FaReact, FaQuestion, FaJira } from "react-icons/fa";
 import "./Skills.css";
 
 const Skills = () => {
     const skillsData = [
 
         {
-            icon: <FaServer />,
-            title: "Backend Development",
-            description: "Building robust REST APIs and server-side applications with Java, Spring Boot, and databases like MongoDB and MySQL.",
+            icon: <FaJira/>,
+            title: "QA Skills",
+            description: "Manual testing, test case creation, defect tracking, and automation testing using Selenium with Core Java, ensuring high-quality software delivery,Tools: Jira, Excel, Selenium, Core Java"
         },
         {
-            icon: <FaCode />,
-            title: "Frontend Development",
-            description: "Creating responsive, accessible, and performant user interfaces with React, TypeScript, and modern CSS.",
-        },
-        {
-            icon: <FaGithub />,
+            icon: <FaGithub/>,
             title: "Version Control",
-            description: "Experienced in using Git and GitHub to manage code, track changes, and collaborate effectively.",
+            description: "Managing source code, test scripts, and collaboration efficiently using Git and GitHub.",
         },
         {
-            icon: <FaBusinessTime/>,
-            title: "Management",
-            description: "Understanding of HR, project, and marketing management concepts gained through academic research.",
+            icon: <FaReact />,
+            title: "Front-End Development",
+            description: "Building and testing user interfaces using React, HTML, CSS, and JavaScript to ensure seamless user experiences."
+        },
+        {
+            icon: <FaServer />,
+            title: "Back-End Development",
+            description: "Developing and testing server-side applications and APIs using Java, Node.js, and databases like MongoDB and MySQL.",
         },
 
-        {
-            icon: <FaPaintBrush />,
-            title: "Canva Design",
-            description: "Creating simple and effective visual designs for academic and research presentations using Canva.",
-        },
+      
     ];
 
     return (

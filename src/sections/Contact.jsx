@@ -7,22 +7,22 @@ const Contact = () => {
             id: 1,
             icon: <FaEnvelope />,
             label: "Email",
-            value: "asvinyksingam@gmail.com",
-            link: "mailto:asvinyksingam@gmail.com",
+            value: "anojanakilan@gmail.com",
+            link: "mailto:anojanakilan@gmail.com",
         },
         {
             id: 2,
             icon: <FaPhone />,
             label: "Phone",
-            value: "+94 74 117 6343",
-            link: "tel:+94741176343",
+            value: "+94 773 719 287",
+            link: "tel:+94773719287",
         },
         {
             id: 3,
             icon: <FaMapMarkerAlt />,
             label: "Location",
-            value: "Jaffna, Sri Lanka",
-            link: "https://maps.google.com/?q=Jaffna,Sri+Lanka",
+            value: "Vavuniya, Sri Lanka",
+            link: "https://maps.google.com/?q=Vavuniyaka,Sri+Lanka",
         },
     ];
 
