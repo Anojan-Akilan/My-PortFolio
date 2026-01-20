@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
             </div>
         </article>
-    );
+    );//Nilu Jana
 };
 
 export default Contact;
